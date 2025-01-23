@@ -16,7 +16,9 @@ header {
     height: 135px;
 
 }
-
+.header_div{
+    background-color: #FFFFFF;
+}
 .burger {
     width: 20px;
     height: 20px;
