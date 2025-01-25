@@ -12,13 +12,22 @@ body {
 
 }
 
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+
+}
+
 header {
     height: 135px;
 
 }
-.header_div{
+
+.header_div {
     background-color: #FFFFFF;
 }
+
 .burger {
     width: 20px;
     height: 20px;
@@ -205,6 +214,7 @@ header {
     height: 55px;
     background-color: #262D33;
 
+
 }
 
 .nav {
@@ -235,6 +245,7 @@ header {
     width: 1366px;
     height: 475px;
     background-color: #262D33;
+    margin-top: 56px;
 }
 
 .simple_info {
@@ -300,6 +311,7 @@ header {
     width: 877px;
     height: 570px;
     border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     z-index: 1;
 }
 
@@ -401,22 +413,23 @@ header {
     line-height: 20px;
     color: #4B5157;
 }
-.tech_reviews{
+
+.tech_reviews {
     width: 263px;
 }
 
-.tech_text{
+.tech_text {
     width: 213px;
     height: 15px;
     margin-top: 19px;
     margin-left: 25px;
-    color:#3DC47E;
+    color: #3DC47E;
     font-size: 12px;
     line-height: 15px;
     letter-spacing: 0.5px;
 }
 
-.tech_reviews_text{
+.tech_reviews_text {
     width: 213px;
     height: 40px;
     font-size: 14px;
@@ -425,23 +438,26 @@ header {
     color: #4B5157;
     line-height: 20px;
 }
-.benjamin_turnir_info{
+
+.benjamin_turnir_info {
     display: flex;
-    
+
 }
-.benjamin_img{
+
+.benjamin_img {
     width: 45px;
     height: 45px;
     margin-left: 55px;
 }
 
-.benjamin_name{
+.benjamin_name {
     display: flex;
-width: 208px;
-height: 45px;
-margin-top: 55px;
+    width: 208px;
+    height: 45px;
+    margin-top: 55px;
 }
-.benjamin_text{
+
+.benjamin_text {
     width: 153px;
     height: 20px;
     font-size: 14px;
@@ -452,7 +468,7 @@ margin-top: 55px;
     line-height: 20px;
 }
 
-.benjamin_text_traveler{
+.benjamin_text_traveler {
     width: 153px;
     height: 15px;
     margin-left: 10px;
@@ -461,51 +477,57 @@ margin-top: 55px;
     line-height: 15px;
     color: #FFFFFF;
 }
-.destinations{
+
+.destinations {
     width: 208px;
     height: 15px;
     margin-top: 130px;
 }
-.destinations_text{
-    
+
+.destinations_text {
+
     margin-left: 55px;
-    width:208px;
+    width: 208px;
     height: 15px;
     color: #4592FF;
     font-size: 12px;
     line-height: 15px;
-   letter-spacing: 0.5px;
-   text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
 }
 
-.in_southeast{
+.in_southeast {
     width: 598px;
     height: 100px;
     margin-left: 55px;
     margin-top: 25px;
 }
-.in_southeast_h1{
+
+.in_southeast_h1 {
     width: 598px;
     height: 100px;
     font-size: 40px;
     line-height: 50px;
     color: #FFFFFF;
- 
+
 }
-.read_more_divider{
+
+.read_more_divider {
     display: flex;
     width: 550px;
     height: 50px;
 }
-.read_more{
+
+.read_more {
     margin-left: 55px;
     margin-top: 45px;
     width: 138px;
     height: 40px;
     background-color: #4592FF;
-    border-radius:20px
+    border-radius: 20px
 }
-.read_more_text{
+
+.read_more_text {
     margin-top: 10px;
     margin-left: 25px;
     font-size: 14px;
@@ -514,26 +536,29 @@ margin-top: 55px;
     text-decoration: none;
 }
 
-.play_svg{
+.play_svg {
     width: 50px;
     height: 50px;
     margin-left: 30px;
     margin-top: 40px;
 }
-.read_more_divider_text_time{
+
+.read_more_divider_text_time {
     display: block;
 }
-.chalk_text{
+
+.chalk_text {
     margin-top: 46px;
     margin-left: 10px;
     width: 272px;
     height: 20px;
     opacity: 85%;
-    font-size:14px;
+    font-size: 14px;
     line-height: 20px;
     color: #FFFFFF;
 }
-.time{
+
+.time {
     width: 31px;
     height: 15px;
     font-size: 12px;
@@ -542,4 +567,798 @@ margin-top: 55px;
     color: #FFFFFF;
     margin-top: 2px;
     margin-left: 10px;
+}
+
+.col-md-12 {
+    background-color: #FFFFFF;
+    width: 555px;
+    height: 370px;
+    margin-top: 315px;
+    margin-left: 113px;
+    border-radius: 10px;
+    display: flex;
+
+
+
+}
+
+.row {
+    display: block;
+}
+
+.cars_group_text {
+
+    font-size: 12px;
+    line-height: 15px;
+    line-height: 0.5px;
+    padding-top: 35px;
+    margin-left: 35px;
+    color: #6E99AE;
+}
+
+.replicas_text {
+    margin-top: 20px;
+    margin-left: 35px;
+    font-size: 25px;
+    line-height: 30px;
+    color: #262D33;
+    font-weight: bold;
+}
+
+.car_tesla_img {
+    width: 292px;
+    height: 299px;
+    border-radius: 10px;
+}
+
+.self_taught_engineer_text {
+    height: 80px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4B5157;
+    margin-top: 25px;
+    margin-left: 35px;
+}
+
+.tesla_line {
+    width: 555px;
+    height: 1px;
+    border-bottom: 1px solid #D9DADB;
+    margin-top: -71px;
+    margin-left: 113px;
+}
+
+.jesica {
+    display: flex;
+    margin-left: 148px;
+    margin-top: 12px;
+
+}
+
+.jesica_name {
+    height: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #262D33;
+    margin-top: 7px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.group_divider_image {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 770px;
+}
+
+.jesica_text {
+    height: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 7px;
+    margin-left: 5px;
+    color: #939699;
+}
+
+.comment_image {
+    width: 15px;
+    height: 15px;
+    margin-left: 15px;
+    margin-top: 7px;
+}
+
+.jessica_number {
+    height: 15px;
+    font-size: 12px;
+    line-height: 15px;
+    margin-left: 5px;
+    margin-top: 7px;
+    color: #939699;
+}
+
+.art_desigin_dvider {
+    width: 263px;
+    height: 370px;
+    margin-top: 315px;
+    margin-left: 29px;
+    border-radius: 10px;
+    display: block;
+    background-image: url('../public/art_desigin_image.png')
+}
+
+.art_designer {
+    width: 66px;
+    height: 25px;
+    margin-top: 18px;
+    margin-left: 18px;
+    background-color: #3DC47E;
+    border-radius: 3px;
+}
+
+.populiar_text {
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    padding-top: 5px;
+    color: #FFFFFF;
+
+}
+
+.art_designer_text {
+    text-transform: uppercase;
+    width: 203px;
+    height: 15px;
+    font-size: 12;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    color: #E7D9FF;
+    margin-top: 117px;
+}
+
+.tattoo_removal {
+    width: 203px;
+    height: 100px;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.by_sarah_image {
+    width: 45px;
+    height: 45px;
+    margin-top: 15px;
+}
+
+.sarah_dvider {
+    display: flex;
+    gap: 10px;
+}
+
+.by_sarah_name_text {
+    width: 148px;
+    height: 20px;
+    margin-top: 18px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    opacity: 85%;
+}
+
+.data_comment_favorit {
+    height: 15px;
+    display: flex;
+    margin-top: 2px;
+}
+
+.data_sarah {
+    font-size: 12px;
+    line-height: 15px;
+    opacity: 40%;
+    color: #FFFFFF;
+}
+
+.sarah_svg_comment {
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+}
+
+.number_sarah {
+    font-size: 12px;
+    line-height: 15px;
+    opacity: 40%;
+    margin-left: 5px;
+    color: #FFFFFF;
+}
+
+.heart_sarah {
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+}
+
+.number_sarah_2 {
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    opacity: 40%;
+    margin-left: 5px;
+}
+
+.columns_divider {
+    width: 263px;
+    height: 770px;
+    background-color: #6E99AE;
+    margin-top: 315px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+.colum_text_divider {
+    display: block;
+
+}
+
+.colum_text {
+    width: 213px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    margin-left: 25px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.colum_line {
+    width: 263px;
+    border: 1px solid #B4D1E0;
+    margin-top: 29px;
+}
+
+.quote_columns_svg {
+    margin-top: 35px;
+    margin-left: 25px;
+    width: 40px;
+    height: 40px;
+    z-index: -0;
+}
+
+.architectural_space_text {
+    width: 203px;
+    height: 75px;
+    margin-top: -35px;
+    margin-left: 35px;
+    font-size: 20px;
+    font-weight: 25px;
+    color: #FFFFFF;
+    z-index: 10;
+    font-weight: bold;
+}
+
+.columns_david_willams_divider {
+    display: flex;
+}
+
+.david_architect_text {
+    display: block;
+}
+
+.david_willams_svg {
+    width: 45px;
+    height: 45px;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
+.david_williams_name {
+    height: 20px;
+    margin-top: 19px;
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #D1E2EB;
+}
+
+.architect {
+    height: 15px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #D1E2EB;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.david_wilams_line {
+    width: 213px;
+    border-bottom: 1px solid #B4D1E0;
+    margin-top: 39px;
+    margin-left: 25px;
+}
+
+.alexandra_green_divider {
+    display: block;
+}
+
+.alexandra_details_design_text {
+    width: 203px;
+    height: 75px;
+    margin-top: -35px;
+    margin-left: 35px;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.alexandra_green_info {
+    display: block;
+}
+
+.alexandra_img {
+    width: 45px;
+    height: 45px;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
+.aixandra_img_name {
+    display: flex;
+}
+
+.alexandra_name_divider {
+    display: block;
+}
+
+.alexandra_name {
+    margin-top: 19px;
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #D1E2EB;
+}
+
+.alexandra_profession {
+    font-size: 12px;
+    line-height: 15px;
+    color: #D1E2EB;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.quote_alixandra_svg {
+    width: 45px;
+    height: 45px;
+    margin-left: 25px;
+    margin-top: 35px;
+    z-index: 0;
+}
+
+.read_more_text_columns {
+    height: 20px;
+    margin-left: 97px;
+    margin-top: 11px;
+}
+
+.read_more_colmns {
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.cat_divider_image {
+    width: 263px;
+    height: 370px;
+    background-color: #FFFFFF;
+    margin-left: 113px;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+
+.cat_img {
+    width: 263px;
+    height: 275px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cat_text_divider {
+    width: 213px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.cat_text {
+    font-size: 16px;
+    line-height: 25px;
+    color: #262D33;
+    font-weight: bold;
+}
+
+.cat_and_information_divider {
+    display: flex;
+}
+
+.card_divider {
+    grid-template-columns: repeat(2, 2fr);
+    display: grid;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 29px;
+    gap: 29px;
+
+}
+
+.card_div {
+    width: 263px;
+    height: 170px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.card_div_2 {
+    width: 263px;
+    height: 170px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.card_text_header {
+    width: 213px;
+    height: 25px;
+    margin-top: 25px;
+    margin-left: 25px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #262D33;
+
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+.card_info_text {
+    width: 213px;
+    height: 60px;
+    margin-top: 5px;
+    margin-left: 25px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4B5157;
+}
+
+.card_info-data {
+    width: 213px;
+    height: 15px;
+    margin-top: 10px;
+    margin-left: 25px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #939699;
+}
+
+.manufacture_divider {
+    display: block;
+}
+
+.Manufacture_info {
+    background-color: #FFFFFF;
+    width: 263px;
+    height: 170px;
+    border-radius: 10px;
+}
+
+.plants_divider {
+    width: 1366px;
+    height: 270px;
+    background-color: #40303D59;
+    margin-top: 360px;
+    background-image: url('../public/Plants_image.png');
+}
+
+.plants_text {
+    width: 946px;
+    height: 100px;
+    color: #FFFFFF;
+    font-size: 40px;
+    text-align: center;
+    line-height: 50px;
+    padding-top: 50px;
+    margin-left: 210px;
+}
+
+.plants_read_more {
+    width: 138px;
+    height: 40px;
+    margin-left: 614px;
+    margin-top: 75px;
+    background-color: #4592FF;
+    border-radius: 20px;
+}
+
+.plants_read_more_text {
+    padding-top: 10px;
+    margin-left: 25px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.news_divider_card_group {
+    display: flex;
+}
+
+.news_divider {
+    height: 1500px;
+    display: block;
+    background-color: #FFFFFF;
+    margin-left: 113px;
+    margin-top: 60px;
+    border-radius: 20px;
+
+}
+
+.news_line {
+    width: 798px;
+    border: 1px solid #D9DADB;
+    margin-left: 25px;
+}
+
+.flights {
+    width: 848px;
+    height: 245px;
+
+}
+
+.food_neews {
+    width: 848px;
+    height: 245px;
+
+}
+
+.food_neews {
+    width: 848px;
+    height: 245px;
+
+}
+
+.science_news {
+    width: 848px;
+    height: 245px;
+
+}
+
+.health_news {
+    width: 848px;
+    height: 245px;
+
+}
+
+.science_2_news {
+    width: 848px;
+    height: 245px;
+
+}
+
+.art_and_design {
+    width: 848px;
+    height: 245px;
+
+}
+
+.flights {
+    display: flex;
+}
+
+.filights_bookmark {
+    display: flex;
+    gap: 150px;
+
+}
+
+.bookmark {
+    margin-top: -5px;
+}
+
+.flights_img {
+    width: 336px;
+    height: 195px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.flights_info {
+    display: block;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.flights_text {
+    width: 267px;
+    height: 15px;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    color: #4592FF;
+    text-transform: uppercase;
+}
+
+.flights_info_header {
+    width: 437px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 25px;
+    color: #262D33;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.filght_main_info_text {
+    width: 437px;
+    height: 60px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4B5157;
+    margin-top: 10px;
+}
+
+.news_icon_group {
+    display: flex;
+    margin-top: 20px;
+}
+
+.news_icon_group {
+    display: flex;
+
+}
+
+.new_data {
+    width: 37px;
+    height: 15px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #939699;
+}
+
+.news_comment_svg {
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+}
+
+.news_comment_number {
+    width: 21px;
+    height: 15px;
+    font-size: 12px;
+    line-height: 15px;
+    margin-left: 5px;
+    color: #939699;
+}
+
+.news_heart_svg {
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    color: #939699;
+}
+
+.news_fowarit_number {
+    width: 21px;
+    height: 15px;
+    font-size: 12px;
+    line-height: 15px;
+    margin-left: 5px;
+    color: #939699;
+}
+
+.recommended_divider {
+    display: block;
+    width: 263px;
+    height: 800px;
+    margin-top: 60px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-left: 29px;
+}
+
+.recommended_text_divider {
+    width: 213px;
+    height: 59px;
+}
+
+.recommended_line {
+    width: 263px;
+    border: 1px solid #D9DADB;
+}
+
+.recommended-block_line {
+    width: 213px;
+    border: 1px solid #D9DADB;
+    margin-top: 17px;
+    margin-left: 25px;
+}
+
+.recommended_text {
+    width: 213px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    color: #262D33;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.office_metting_img {
+    width: 60px;
+    height: 60px;
+    margin-top: 17px;
+    margin-left: 25px;
+}
+
+.recommended_block {
+    display: flex;
+
+
+}
+
+.office_info {
+    display: block;
+    margin-top: 17px;
+    margin-left: 10px;
+}
+
+.recommended_info {
+    width: 143px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4B5157;
+    z-index: 10;
+}
+
+.metting_time {
+    width: 143px;
+    height: 15px;
+    font-size: 12px;
+    color: #939699;
+    line-height: 15px;
+}
+
+.read_morde_recommended {
+    text-align: center;
+    margin-top: 11px;
+}
+
+.read_morde_recommended {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    color: #262D33;
+}
+
+.number_recommended {
+    width: 41px;
+    font-size: 70px;
+    height: 50px;
+    opacity: 8%;
+    line-height: 50px;
+    text-align: right;
+    color: #262D33;
+    z-index: 2;
+    margin-left: 197px;
+    position: absolute;
+    margin-top: 20px;
+    font-family: 'Lato';
+    font-weight: bold;
+
 }
